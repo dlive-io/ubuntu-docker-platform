@@ -16,7 +16,7 @@ add-apt-repository -y \
    stable"
 
 apt-get update -y
-apt-get install -y docker-ce=17.06.2~ce-0~ubuntu
+apt-get install -y docker-ce
 
 # Add user ubuntu to the docker group
 gpasswd -a ubuntu docker
